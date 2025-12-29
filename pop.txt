@@ -1,4 +1,39 @@
-# Planning
+#Create new branch
+>git branch dev			--create new branch
+>git checkout dev		--witch to the new branch
+>git switch dev 		--switch to the new branch
+>git branch			--check branch
+>git checkout -b dev		--Create & switch in ONE command (shortcut)
+>git switch -c dev		--Create & switch in ONE command (shortcut)
+>git push -u origin dev		--Push branch to GitHub (important)
+				--After creating the branch locally, upload it:
+>git switch main		--Switch between branches
+>git switch dev			--Switch between branches
+
+
+#Scenario:
+You have two branches: main and dev
+File pop.txt is currently in main, and you want to:
+Send pop.txt to dev
+Add a line in dev
+Commit in dev
+Merge changes back into main
+Push to remote
+D:\gitwork\git_learning
+
+--Ans
+>git branch
+>cd /d/gitwork/git_learning
+>pwd
+>cat pop.txt
+>git checkout dev
+>nano pop.txt
+>git add pop.txt
+>git commit -m "updated"	--Changes in dev completed
+>git checkout main
+>git merge dev			--Changes from dev added to main
+>git push origin main
+>cd# Planning
 work1
 Its now edited.
 The file update...Dev
