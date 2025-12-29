@@ -34,6 +34,6 @@ D:\gitwork\git_learning
 >git merge dev			--Changes from dev added to main
 >git push origin main
 >cd# Planning
-work1
-Its now edited.
-The file update...Dev
+
+>git checkout dev
+>git push origin dev
