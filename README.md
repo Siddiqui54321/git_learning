@@ -1,4 +1,2 @@
-# git_learning git 
+# git_learning 
 Git practice repo
-Git practice repo1
-Git practice repo2
