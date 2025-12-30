@@ -37,3 +37,37 @@ D:\gitwork\git_learning
 
 >git checkout dev
 >git push origin dev
+--------------------------------------------30/12/2025
+
+---Git branch       how many branches and current branch
+
+--GIT fetch
+ open 'README.md' on hit hub  and edit directly on their add one line
+ 'Commit changes'   commit changes...commit directly to the main branch
+>git chanckout main    on command prompt
+>git status
+>git fetch          (only pointer update and not apply)
+		
+>git status
+>git merge
+>git pull	
+
+
+
+1> all the changes remote changes display in local then use >git fetch
+>git checkout main
+>git fetch  (fetch kabhi bhi local file system main change reflect nahi karta
+		woo sirf pointer update karta hay.
+>git status
+		(agar changes apply karna hay to pull use karni ho gi)
+>git merge origin/main 
+>git status
+
+>git pull   (pull the combination of fetch and merge when run pull then first 
+		it takes fetch then take merge. so origin/main branch ko lay aata hay.
+
+
+
+--resolving conflict
+dev1 has changes
+dev2 also changes a file
