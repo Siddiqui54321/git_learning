@@ -71,4 +71,3 @@ D:\gitwork\git_learning
 --resolving conflict
 dev1 has changes
 dev2 also changes a file
-abc
