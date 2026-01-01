@@ -1,3 +1,4 @@
+new
 #Create new branch
 >git branch dev			--create new branch
 >git checkout dev		--witch to the new branch
